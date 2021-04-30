@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #dff5ff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.container{
+    width: 30%;
+    border-radius: 30px;
+    background-color: white;   
+}
+
+.inner{
+    background-color: #00b6ff;
+    padding: 1em;
+    border-radius: 10px;
+    width: 100%;
+    clip-path: circle(50% at 0% 0%);
+}

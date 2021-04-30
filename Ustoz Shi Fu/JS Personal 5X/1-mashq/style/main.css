@@ -1,0 +1,23 @@
+.shadow-fight{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+.shadow-fight.clicked{
+    background-color: red;
+}
+
+body.extrabody{
+    background-color: #050505;
+    color: white;
+}
+
+body.extrabody a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+

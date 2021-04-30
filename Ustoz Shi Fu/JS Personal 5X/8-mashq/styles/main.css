@@ -1,0 +1,13 @@
+.body{
+    background-color: black;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: silver;
+}
+
+.box.active{
+    background-color: slateblue;
+}

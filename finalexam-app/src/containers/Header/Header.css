@@ -1,0 +1,175 @@
+header {
+  padding: 30px;
+  margin-bottom: 30px;
+  -webkit-box-shadow: 12px 4px 24px rgba(0, 0, 0, 0.0647645);
+          box-shadow: 12px 4px 24px rgba(0, 0, 0, 0.0647645);
+}
+
+.header-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1200;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header-top-left {
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-top-left-language_link {
+  color: #4A4A4A;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 5px;
+}
+
+.header-top-left-language span {
+  color: #4A4A4A;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.header-top-right-registration {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 21px;
+  color: #4E72CA;
+}
+
+.header-top-right-registration_reglink {
+  padding: 5px;
+  color: #4E72CA;
+}
+
+.header-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 30px;
+}
+
+.header-bottom-form {
+  border: 1px solid rgba(151, 151, 151, 0.496575);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 22.5px;
+}
+
+.header-bottom-form_select {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 13px 30px;
+  line-height: 18px;
+  color: #000000;
+  border-radius: 22.5px 0 0 22.5px;
+  outline: none;
+  border: none;
+  border-right: 1px solid rgba(151, 151, 151, 0.496575);
+}
+
+.header-bottom-form_input {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 13px 30px;
+  line-height: 18px;
+  color: #000000;
+  border: none;
+  padding: 13px 30px;
+  outline: none;
+  width: 250px;
+  border-right: 1px solid rgba(151, 151, 151, 0.496575);
+}
+
+.header-bottom-form-selection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-bottom-form-selection select {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 13px 45px 13px 30px;
+  line-height: 18px;
+  color: #000000;
+  border-radius: 22.5px 0 0 22.5px;
+  outline: none;
+  border: none;
+}
+
+.header-bottom-form-selection button {
+  padding: 14px 19px;
+  background: #19D476;
+  border-radius: 22px;
+  outline: none;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+
+.header-bottom-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #19D476;
+  border-radius: 22px;
+}
+
+.header-bottom-btn-icon {
+  color: #FFFFFF;
+  padding: 17px 17px 13px 17px;
+  background: #11B463;
+  display: inline-block;
+  border-radius: 22px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.header-bottom-btn-text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  display: inline-block;
+  color: #FFFFFF;
+  padding: 13px 30px 13px 13px;
+}
+/*# sourceMappingURL=Header.css.map */

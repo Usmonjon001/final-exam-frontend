@@ -1,0 +1,123 @@
+.regphone{
+    &-left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 50%;
+        text-align: center;
+        padding: 100px;
+        &-form{
+            min-width: 334px;
+            box-sizing: border-box;
+            h1{
+                width: 100%;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 30px;
+                text-align: center;
+                text-transform: uppercase;
+                color: #000000;
+            }
+            h5{
+                font-style: normal;
+                font-weight: 500;
+                font-size: 17px;
+                line-height: 21px;
+                max-width: 330px;
+                color: #787993;text-align: left;
+                margin-top: 16px;
+            }
+            .regCode-input{
+                width: 100%;
+                outline: none;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 19px;
+                border: 1px solid rgba(151, 151, 151, 0.482592);
+                box-sizing: border-box;
+                border-radius: 5px;
+                padding: 20px 30px;
+                max-width: 318px;
+            }
+            p{
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 17px;
+                margin-top: 50px;
+                text-align: center;
+                color: #787993;
+                position: relative;
+                &::after{
+                    content: '';
+                    position: absolute;
+                    top: 8px;
+                    left: 0;
+                    width: 45%;
+                    height: 2px;
+                    background-color: #979797;
+                }
+                &::before{
+                    content: '';
+                    position: absolute;
+                    top: 8px;
+                    right: 0;
+                    width: 45%;
+                    height: 2px;
+                    background-color: #979797;
+                }
+            }
+            &_link{
+                color: #4E72CA;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 20px;
+                text-align: center;
+                margin-top: 30px;
+                display: inline-block;
+            }
+            &-button{
+                width: 100%;
+                background: #41D481;
+                border-radius: 5px;
+                padding: 20px;
+                border: none;
+                outline: none;
+                font-weight: 500;
+                font-size: 17px;
+                display: block;
+                line-height: 21px;
+                text-align: center;
+                color: #FFFFFF;
+                margin-top: 30px;
+                box-sizing: border-box;
+                cursor: pointer;
+                min-width: 300px;
+            }
+        }
+    }
+}
+
+.regphoneflex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.regCode-inputwo{
+    width: 100%;
+    width: 100%;
+    outline: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    border: 1px solid rgba(151, 151, 151, 0.482592);
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 20px 30px;
+    margin-top: 30px;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MizHomeWorks</title>
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./libs/bootstrap.min.css">
+</head>
+<body>
+
+    <h1 class="sarlavha">Kim Birinchi Borishga!</h1>
+
+    <form class="second-Form">
+        <label for="">Masofa</label>
+        <input type="text" id="second-line__input" placeholder="km">
+        <button>Hisobla</button>
+    </form>
+
+    <div class="tezlik-topator">
+        <h1>Piyoda: <span id="peshkom-holder"></span></h1>
+        <h1>Velasiped: <span id="velosiped-holder"></span></h1>
+        <h1>Mashina: <span id="mashina-holder"></span></h1>
+        <h1>Samalyot:<span id="samalyot-holder"></span></h1>
+    </div>
+
+    <hr>
+
+
+
+
+    <div class="letter-section">
+        <h1>Xat generatori!</h1>
+        <select id="letter-select">
+            <option value="no-value" selected disabled>Xat Turini Tanlang!</option>
+            <option value="rasmiy">Rasmiy</option>
+            <option value="onamga">Onamga</option>
+            <option value="dostimga">Do'stimga</option>
+            <option value="sevgi">Sevgi</option>
+        </select>
+        <br><br>
+        <textarea id="letter-textarea" cols="30" rows="10">
+
+        </textarea>
+    </div>
+
+
+<hr>
+
+
+    
+    <form id="run-form" class="d-flex justify-content-center flex-column" style="width: 30%">
+        <h1>Yugurishga chiqamizmi?</h1>
+        <div style="display: flex; justify-content: center;">
+            <h1 id="yes-indicator" class=" me-3">HA</h1>
+            <h1 id="no-indicator" class="">YO'Q</h1>
+        </div>
+
+        <label for="run-temperature">Havo Harorati:</label>
+
+        <input type="text" id="run-temperature">
+
+        <div class="d-flex">
+            <input type="checkbox" id="check-rain">
+
+            <label for="check-rain">Yomg'ir Yog'yaptimi:</label>
+        </div>
+
+        <div class="d-flex">
+            <input type="checkbox" id="check-gym">
+
+            <label for="check-gym">Zal Ochiqmi</label>
+        </div>
+
+    <button type="submit" class="btn btn-primary">Tekshirish</button>
+    </form>
+
+    
+
+    <script src="./libs/bootstrap.min.js"></script>
+    <script src="./scripts/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+.shadow-fight{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+
+.shadow-fight.clicked{
+    background-color: red;
+}
+
+.night{
+    background-color: black;
+    color: white;
+}
+
+body.night a{
+    color: #ffffff;
+    text-decoration: none;
+}

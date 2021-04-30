@@ -1,0 +1,26 @@
+.element{
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+}
+
+.element.extraBox{
+    background-color: blue;
+}
+
+body.extraBody{
+    background-color: gray;
+}
+
+body.extraBody a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
+
+
+
+

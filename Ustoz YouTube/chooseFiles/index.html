@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .image-preview{
+            width: 300px;
+            min-height: 100px;
+            border: 1px solid silver;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold; 
+            color: #ccc; 
+        }
+        .image-preview__image{
+            display: none;
+            width: 100%;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Choose Image in Folder!</h1>
+
+    <input type="file" name="inpFile" id="inpFile">
+
+    <div class="image-preview" id="imagePreview">
+        <span class="image-preview__default-text" accept="image/png, image/jpeg">Image  Preview</span>
+        <img src="" alt="Image" class="image-preview__image">
+    </div>
+
+
+    <script src="./main.js"></script>
+    
+</body>
+</html>

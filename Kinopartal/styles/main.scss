@@ -1,0 +1,329 @@
+@font-face {
+    font-family: 'Sansation';
+    src: url('../fonts/transfonter/SansationRegular.eot');
+    src: url('../fonts/transfonter/SansationRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/transfonter/SansationRegular.woff') format('woff'),
+        url('../fonts/transfonter/SansationRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sansation';
+    src: url('../fonts/transfonter/SansationBold.eot');
+    src: url('../fonts/transfonter/SansationBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/transfonter/SansationBold.woff') format('woff'),
+        url('../fonts/transfonter/SansationBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sansation';
+    src: url('../fonts/transfonter/SansationBoldItalic.eot');
+    src: url('../fonts/transfonter/SansationBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/transfonter/SansationBoldItalic.woff') format('woff'),
+        url('../fonts/transfonter/SansationBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sansation';
+    src: url('../fonts/transfonter/SansationLight.eot');
+    src: url('../fonts/transfonter/SansationLight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/transfonter/SansationLight.woff') format('woff'),
+        url('../fonts/transfonter/SansationLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sansation';
+    src: url('../fonts/transfonter/SansationItalic.eot');
+    src: url('../fonts/transfonter/SansationItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/transfonter/SansationItalic.woff') format('woff'),
+        url('../fonts/transfonter/SansationItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sansation';
+    src: url('../fonts/transfonter/SansationLightItalic.eot');
+    src: url('../fonts/transfonter/SansationLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/transfonter/SansationLightItalic.woff') format('woff'),
+        url('../fonts/transfonter/SansationLightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul,a{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body{
+    background-color: #02030F;
+    color: white;
+    font-family: 'Sansation';
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid white;
+    min-height: 600px;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    &-navigationBar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        border: 1px solid red;
+        box-sizing: border-box;
+        &-content{
+            position: relative;
+            &__logo{
+                position: absolute;
+                color: transparent;
+                transform: translate(-50%,-50%);
+                &:nth-child(1){
+                    color: transparent;
+                    -webkit-text-stroke: 2px #03a9f4;
+                }
+                &:nth-child(2){
+                    color: #03a9f4;
+                    animation: animate 4s ease-in-out infinite;
+                    // Animation qoshilish kere bo'gan joy!!!
+                }
+            }
+        }
+        &-menu{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            &__item{
+                color: white;
+                font-size: 18px;
+                padding: 20px 10px;
+            }
+            &-right{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                &__item{
+                    padding: 20px 20px;
+                    color: blue;
+                    background-color: blue;
+                    color: white;
+                    border-radius: 5px;
+                    &:hover{
+                        transition: all ease 1s;
+                        background-color: green;
+                        color: black;
+                    }
+                    &:first-child{
+                        background-color: red;
+                        margin-right: 20px;
+                        font-weight: bolder;
+                        &:hover{
+                            background-color: green;
+                            color: blue//#F78F03;
+                        }
+                    }
+                }
+            }
+            &-search-box{
+                max-height: 60px;
+                max-width: 350px;
+                display: flex;
+                justify-content: flex-end;
+                position: relative;
+                &-search{
+                    height: 100%;
+                    width: 0%;
+                    border: none;
+                    display: flex;
+                    outline: none;
+                    background-color: #fff;
+                    border-radius: 50px;
+                    padding: 15px 25px;
+                    transition: all ease 1s;
+                }
+                &-btn{
+                    position: absolute;
+                    top: 5px;
+                    right: 7px;
+                    background-color: blue;
+                    padding: 6px 8px;
+                    object-fit: contain;
+                    border-radius: 50%;
+                    cursor: pointer;
+                }
+                &-cansel{
+                    position: absolute;
+                    top: 8px;
+                    right: -220px;
+                    border-radius: 50%;
+                    padding: 6px 8px;
+                    object-fit: contain;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    &-main{
+        width: 100%;
+        height: 650px;
+        position: relative;
+        &__image{
+            object-fit: cover;
+            width: 100%;
+            height: 650px;
+        }
+        &__leftbtn{
+            position: absolute;
+            top: 50%;
+            bottom: 0;
+            max-height: 40px;
+            left: -10%;
+            border: none;
+            outline: none;
+            padding: 20px 40px;
+        }
+        &__rightbtn{
+            position: absolute;
+            top: 50%;
+            bottom: 0;
+            max-height: 40px;
+            right: -10%;
+            border: none;
+            outline: none;
+            padding: 20px 40px;
+        }
+    }
+}
+
+
+
+
+
+
+.navBaractive{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Animatsiyalar
+
+
+@keyframes animate{
+    0%, 100%{
+        clip-path: polygon(1% 41%, 14% 42%, 24% 46%, 33% 50%, 41% 54%, 49% 60%, 62% 62%, 72% 60%, 81% 54%, 91% 50%, 100% 43%, 100% 99%, 0% 100%);
+    }
+    50%{
+        clip-path: polygon(1% 43%, 6% 50%, 14% 54%, 23% 56%, 34% 57%, 44% 56%, 54% 53%, 63% 48%, 73% 45%, 84% 43%, 100% 43%, 100% 99%, 0% 100%);
+    }
+}
+
+
+::-webkit-scrollbar{
+    width: 0;
+}
+
+#scrollPath{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 100%;
+    background-color: rgba(255,255,255,0.05);
+}
+
+#progressbar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 10px;
+    // height: 100%; 
+    background: linear-gradient(to top, #008aff, #00ffe4);
+    animation: enimate 5s linear infinite;
+}
+
+@keyframes enimate{
+    0%,100%{
+        filter: hue-rotate(0 deg);
+    }50%{
+        filter: hue-rotate(360deg);
+    }
+}
+
+#progressbar::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #008aff, #00ffe4);
+    filter: blur(10px);
+}
+
+#progressbar::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #008aff, #00ffe4);
+    filter: blur(10px);
+}
+
+.percent{
+    position: fixed;
+    top: 34%;
+    right: 15px;
+    color: #fff;
+    font-size: 2em;
+    transition: translateY(-50%) rotateX(180deg);
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+}

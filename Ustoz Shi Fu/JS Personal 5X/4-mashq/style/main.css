@@ -1,0 +1,33 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.box.extraBox{
+    background-color: blue;
+}
+
+body.extraBody{
+    background-color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

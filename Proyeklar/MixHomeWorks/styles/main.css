@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.permissionTrue, center {
+  font-size: 26px;
+}
+
+.permissionFalse {
+  font-size: 26px;
+}
+
+.active {
+  color: green important;
+}
+
+.no-indicator.active {
+  color: red;
+}
+/*# sourceMappingURL=main.css.map */

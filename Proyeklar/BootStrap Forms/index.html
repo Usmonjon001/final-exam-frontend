@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Bootstrap/bootstrap.min.css">
+    <title>Form</title>
+</head>
+<body style="background-color: #f1f1f1;">
+    
+    <div class="container">
+
+        <h1 class="text-center">Checkout Form</h1>
+        <p class="text-center col-lg-8 mx-auto mb-5">
+        Below is an example form built entirely width Bootstrap's form controls, Each required form group has validation state that can be triggered by attempting to submit the form without completing it.
+        </p>
+        <div class="column-wrapper d-flex justify-content-between">
+
+            <!-- <div class="col-lg-8">
+                <form action="https://echo.htmlacademy.ru">
+                
+                    <legend>Billing address</legend>
+
+                    <div class="inputwrapper-name d-flex justify-content-between">
+                        <div class="mb-3 col-lg-5">
+                            <label for="form-name" class="form-label">First Name:</label>
+                            <input type="text" id="form-name" name="Name" class="form-control">
+                        </div>
+
+                        <div class="mb-3 col-lg-5">
+                            <label for="form-surname" class="form-label">Last Name:</label>
+                            <input type="text" id="form-surname" name="Surename" class="form-control">
+                        </div>
+                    </div>
+        
+                    
+
+                    <label for="form-username" class="mb-2">Username</label>
+                    <div class="input-group mb-3">
+                        
+                        <span class="input-group-text" id="basic-addon1">@</span>
+                        <input type="text" class="form-control" id="form-username" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+
+                    <label for="form-email" class="mb-2">Email</label>
+                    <div class="input-group mb-3">
+                        <input type="text" id="form-email" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <span class="input-group-text" id="basic-addon2">@example.com</span>
+                      </div>
+
+                    <div class="d-block mb-3">
+                        <label for="manzil" class="mb-2">Address</label>
+                        <input type="address" id="manzil" class="form-control" placeholder="1234 Main St">
+                    </div>
+
+                    <div class="d-block mb-3">
+                        <label for="manzil2" class="mb-2">Address</label><span id="manzil" class="form-text">
+                            (Optional)
+                          </span>
+                        <input type="address" id="manzil2" class="form-control" placeholder="Appartment or suite">
+                    </div>
+
+
+                    <div class="pb-3 d-flex justify-content-between border-bottom mb-3">
+                        <div class="col-lg-4">
+                        <label for="exampleDataList" class="form-label">Country</label>
+                        <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Choose...">
+                        <datalist id="datalistOptions">
+                            <option value="Choose">Choose</option>
+                            <option value="New York">New York</option>
+                            <option value="Seattle">Seattle</option>
+                            <option value="Los Angeles">Los Angeles</option>
+                            <option value="Chicago">Chicago</option>
+                        </datalist>
+                        </div>
+
+                        <div class="col-lg-4">
+                        <label for="exampleDataList" class="form-label">Country</label>
+                        <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Choose...">
+                        <datalist id="datalistOptions">
+                            <option value="Choose">Choose</option>
+                            <option value="New York">New York</option>
+                            <option value="Seattle">Seattle</option>
+                            <option value="Los Angeles">Los Angeles</option>
+                            <option value="Chicago">Chicago</option>
+                        </datalist>
+                        </div>
+
+                        <div class="col-lg-3">
+                            <label for="exampleDataList" class="form-label">Country</label>
+                            <input type="file" class="form-control" id="exampleDataList" name="Zip">
+                        </div>
+
+                    </div>
+
+                    <div class="pb-3 mb-3 border-bottom">
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                            Shipping address is the soma as may billing address
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                            <label class="form-check-label" for="flexCheckChecked">
+                            Save this information forn the next time
+                            </label>
+                        </div>
+                    </div>
+
+                    <label for="" class="mb-3 h1">Payment</label>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          Credit card
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                          Debit card
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                          PayPal
+                        </label>
+                    </div>
+
+                    <div class="mb-3 d-flex justify-content-between">
+                        <div class="mb-3" style="width: 48%;">
+                            <label for="form-passport" class="form-label">Password Scan:</label>
+                            <input type="text" id="form-passport" name="Card Name:" class="form-control">
+                            <span id="manzil" class="form-text">
+                                Full as displayed on card
+                              </span>
+                        </div>
+
+                        <div class="mb-3" style="width: 48%;">
+                            <label for="form-passport" class="form-label">Password Scan:</label>
+                            <input type="number" id="form-passport" name="Card Number:" class="form-control">
+                        </div>
+
+                    </div>
+
+
+                    <div class="inputwrapper d-flex border-bottom mb-3">
+                        <div class="mb-3 col-lg-3 me-3">
+                            <label for="form-name" class="form-label">Expiration:</label>
+                            <input type="text" id="form-name" name="Expiration" class="form-control">
+                        </div>
+
+                        <div class="mb-3 col-lg-3">
+                            <label for="form-surname" class="form-label">CVV:</label>
+                            <input type="text" id="form-surname" name="CVV" class="form-control">
+                        </div>
+                    </div>
+
+
+
+        
+                     <button class="btn btn-primary col-lg-12" type="submit">Continue to checkout</button>
+        
+                </form>
+            </div> -->
+
+            <div class="offset-lg-8 col-lg-4 px-3">
+
+                <div class="text-wrapper d-flex justify-content-between ">
+
+
+                    <h1 class="h1 text-muted">Your cart</h1>
+
+                    <h1 class="rounded-pill bg-secondary text-center" style="width: 55px;">3</h1>
+
+                </div>
+
+                <table class="table table-hover" style="background-color: white;">
+
+                   
+                    <tr>
+                        <td>Product Name<br><span id="manzil" class="form-text">
+                            Full as displayed on card
+                          </span></td>
+    
+                        <td>
+                            $12
+                        </td>
+                        </tr>
+                        <tr>
+                            <td>Product Name<br><span id="manzil" class="form-text">
+                                Full as displayed on card
+                              </span></td>
+        
+                            <td>
+                                $12
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Product Name<br><span id="manzil" class="form-text">
+                                Full as displayed on card
+                              </span></td>
+        
+                            <td>
+                                $12
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Product Name<br><span id="manzil" class="form-text">
+                                Full as displayed on card
+                              </span></td>
+        
+                            <td>
+                                $12
+                            </td>
+                        </tr>
+                        
+
+                    
+                </table>
+
+                <div class="px-2 py-2" style="background-color: #fff;">
+
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Promo code" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <span class="input-group-text" id="basic-addon2">Redeem</span>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+           
+
+    </div>
+
+    <footer class="px-4 py-4 mt-4" style="width: 100%">
+
+
+        <p class="text-muted text-center">2017-2020 Company Name</p>
+        
+        <div class="mx-auto text-center">
+            <a href="#" class="text-center">Privacy</a>
+            <a href="#" class="text-center">Terms</a>
+            <a href="#" class="text-center">Support</a>
+        </div>
+
+    </footer>
+
+
+
+
+
+
+    <script src="./Bootstrap/bootstrap.min.js">
+
+    </script>
+</body>
+</html>

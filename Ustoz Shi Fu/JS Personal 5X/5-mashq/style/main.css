@@ -1,0 +1,38 @@
+.section{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+
+.section.hello{
+    background-color: blue;
+}
+
+body.extraBody{
+    background-color: #333;
+}
+
+body.extraBody a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

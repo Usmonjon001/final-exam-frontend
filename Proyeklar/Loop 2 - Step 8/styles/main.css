@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Roboto';
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 600px;
+  border: 1px solid black;
+  border-radius: 5%;
+  margin: 0 auto;
+}
+
+.inner-container {
+  background: linear-gradient(35deg, white 60%, #5288F3 40%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
+  padding: 0 30px;
+}
+
+.inner-container-card {
+  padding: 17px;
+  background: #090909;
+  border-radius: 15px;
+}
+
+.inner-container-card__heading {
+  text-align: right;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.inner-container-card__image {
+  text-align: left;
+}
+
+.inner-container-card-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 50px;
+}
+
+.inner-container-card-form__input {
+  background-color: #00060A;
+  width: 15%;
+  padding: 5px;
+  color: white;
+  font-size: 32px;
+  outline: none;
+  border: none;
+}
+
+.inner-container-card-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.inner-container-card-text__input {
+  padding: 5px;
+  background-color: #00060A;
+  width: 55%;
+  padding: 5px;
+  color: white;
+  font-size: 32px;
+  outline: none;
+  border: none;
+}
+/*# sourceMappingURL=main.css.map */

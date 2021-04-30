@@ -1,0 +1,144 @@
+.singlepage{
+    &-info{
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        h1{
+            width: 100%;
+        }
+        h1{
+            margin-top: 15px ;
+        }
+        &-card{
+            display: flex;
+            justify-content: flex-start;
+            margin-top: 20px;
+            justify-content: space-between;
+            align-items: flex-start;
+            width: 100%;
+            margin-top: 20px;
+            img{
+                width: 500px;
+                object-fit: contain;
+            }
+            &-text{
+                max-width: 600px;
+                width: 100%;
+                &_data{
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 17px;display: flex;
+                    justify-content: space-between;
+                    color: #414D6A;
+                    margin-top: 14px;
+                }
+                h3{
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 40px;
+                    color: #444444;
+                }
+                &-addres{
+                    text-decoration-line: underline;
+                }
+                &-phone{
+                    background: #65E99F;
+                    border-radius: 18.5px;
+                    display: inline-block;
+                    margin-top: 20px;
+                    span{
+                        color: #000000;
+                        margin-left: 10px;
+                    }
+                    button{
+                        background: #41D481;
+                        border-radius: 18.5px;
+                        padding: 10px 23px;
+                        outline: none;
+                        border: none;
+                        cursor: pointer;
+                    }
+                }
+                &-author{
+                    margin-top: 20px;
+                    span{
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 17px;
+                        color: #000000;
+                    }
+                    a{
+                        text-decoration-line: underline;
+                        color: #2AAE63;
+                        font-weight: bold;
+                        font-size: 14px;
+                    }
+                }
+                &-connect{
+                    width: 65%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    margin-top: 20px;
+                    button{
+                        font-size: 14px;
+                        line-height: 16px;
+                        letter-spacing: -5.89155e-05px;
+                        color: #FFFFFF;
+                        background: #304FFF;
+                        border-radius: 23.5px;
+                        border: none;
+                        outline: none;
+                        padding: 15px 25px;
+                    }
+                }
+                &-paragrif{
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 17px;
+                    color: #414D6A;
+                    p{
+                        margin-top: 36px;
+                    }
+                }
+                &-viewers{
+                    width: 70%;
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 25px;
+                    margin-bottom: 30px;
+                }
+            }
+        }
+    }
+    &-bottom{
+        margin-bottom: 30px;
+    }
+}
+
+
+
+table{
+    width: 100%;
+    tr{
+        border-bottom: 1px solid rgba(151, 151, 151, 0.191604);
+    }
+    td{
+        font-size: 14px;
+        line-height: 16px;
+        color: #444444;
+        padding: 19px 32px;
+        border-left: 1px solid rgba(151, 151, 151, 0.191604);
+        border-bottom: 1px solid rgba(151, 151, 151, 0.191604);
+        a{
+            text-decoration-line: underline;
+            color: #4E72CA;
+            width: 100%;
+        }
+    }
+}
+.bottom{
+    
+}

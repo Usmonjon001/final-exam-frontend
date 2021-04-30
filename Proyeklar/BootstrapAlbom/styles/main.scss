@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p,a{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.nav-link{
+    &__subscribe{
+        &:hover{
+            color: #212529;
+        }
+    }
+    &__heading{
+        font-size: 31px;
+        color: black;
+        text-decoration: underline;
+        &:hover{
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
+
+.text-decoration-underline{
+    text-decoration: underline;
+}

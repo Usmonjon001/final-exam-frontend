@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.playing-card-holder{
+    background-color: #000;
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.playing-card-holder.qarga{
+    background-image: url(./images/qarga.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.playing-card-holder.olma{
+    background-image: url(./images/olma.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.playing-card-holder.gisht{
+    background-image: url(./images/gisht.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.playing-card-holder.chilli{
+    background-image: url(./images/chilli.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}

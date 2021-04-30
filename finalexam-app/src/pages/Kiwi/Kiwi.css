@@ -1,0 +1,143 @@
+.computer-togle {
+  display: hidden;
+  width: 100%;
+  position: absolute;
+  bottom: -15px;
+  right: 0;
+  background: #dadada;
+  z-index: 5;
+}
+
+.kiwicard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.kiwicard-item {
+  max-width: 254px;
+  margin-bottom: 18px;
+  min-height: 300px;
+}
+
+.kiwicard-item img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.kiwicard-item h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  margin-top: 5px;
+}
+
+.kiwicard-item p {
+  margin-top: 5px;
+}
+
+.kiwicard-item_date {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #4A4A4A;
+}
+
+.kiwicard-item_price {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.kiwicard-cardtypes {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+
+.kiwicard-cardtypes-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.kiwicard-cardtypes-container:nth-child(2) .kiwicard-cardtypes-container-card {
+  background: #B4E2E1;
+}
+
+.kiwicard-cardtypes-container:nth-child(3) .kiwicard-cardtypes-container-card {
+  background: #FF9E83;
+  position: relative;
+}
+
+.kiwicard-cardtypes-container:nth-child(3) .kiwicard-cardtypes-container-card:hover .computer-togle {
+  display: block;
+  background: red;
+}
+
+.kiwicard-cardtypes-container:nth-child(4) .kiwicard-cardtypes-container-card {
+  background: #F7E233;
+}
+
+.kiwicard-cardtypes-container:nth-child(5) .kiwicard-cardtypes-container-card {
+  background: #F6DAC2;
+}
+
+.kiwicard-cardtypes-container:nth-child(6) .kiwicard-cardtypes-container-card {
+  background: #B4E2E1;
+}
+
+.kiwicard-cardtypes-container:nth-child(7) .kiwicard-cardtypes-container-card {
+  background: #B6CAFB;
+}
+
+.kiwicard-cardtypes-container:nth-child(8) .kiwicard-cardtypes-container-card {
+  background: #F6DAC2;
+}
+
+.kiwicard-cardtypes-container:nth-child(9) .kiwicard-cardtypes-container-card {
+  background: #FF9E83;
+}
+
+.kiwicard-cardtypes-container-card {
+  background: #B6CAFB;
+  border-radius: 20px;
+  padding: 16px;
+}
+
+.kiwicard-cardtypes-container-text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #4A4A4A;
+  margin-top: 6px;
+}
+/*# sourceMappingURL=Kiwi.css.map */

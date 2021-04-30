@@ -1,0 +1,125 @@
+$midnightGreen: #014E56;
+$lightCoral: #F67E7E;
+$white: #fff;
+$raptureBlue: #79C8C7;
+$policeBlue: #2C6269;
+$deepjungleGreen: #004047;
+$sacramentoStateGreen: #012F34;
+$darkGreen: #002529;
+
+// Mixins
+
+%transition{
+    transition: all ease 1s;
+}
+
+
+body{
+    background-color: $midnightGreen;
+    font-family: 'Livvic', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,p,a{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+    align-items: center;
+    &-left{
+        display: flex;
+        justify-content: space-between;
+        width: 40%;
+        box-sizing: border-box;
+        align-items: center;
+        &__link{
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 28px;
+            color: #fff;
+            padding: 20px;
+            display: inline-block;
+            position: relative;
+            &:hover{
+                transition: all ease 0.5s;
+                color: $lightCoral;
+            }
+            &:active{
+                color: $darkGreen;
+            }
+            &:before{
+                content: '';
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                top: 0;
+                background-color: $white;
+                height: 5px;
+                margin: auto;
+                width: 5px;
+                border-radius: 50%;
+            }
+        }
+    }
+}
+
+.button{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    padding: 10px 33px;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 24px;
+    @extend %transition;
+    position: relative;
+    &--primary{
+        &:hover{
+            background-color: #ffffff;
+            color: $midnightGreen;
+        }
+        &:active{
+
+        }
+        &:before{
+            
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

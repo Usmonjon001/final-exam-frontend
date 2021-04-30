@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Loop 3 - Step 6</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="./libs/bootstrap.min.css">
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="./styles/main.css">
+</head>
+
+<body>
+
+  <div class="container mt-5">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#!">Cart</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#!">Custumer information</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#!">Shipping Method</a>
+          </li>
+
+          <li class="nav-item active">
+            <a class="nav-link" href="#!" style="color: #333;">Payment Method <span class="sr-only">(current)</span></a>
+          </li>
+
+
+        </ul>
+      </div>
+    </nav>
+
+
+
+    <div class="d-flex justify-content-between align-items-start flex-wrap">
+
+      <div class="rightColumn col-xl-7 col-md-12 col-sm-12 col-12">
+
+        <div class="card mb-5">
+          <div class="card-body shadow p-4 pt-5 rounded" style="background-color: #fff;">
+            <h4 class="card-title mb-4">Payment Information</h4>
+
+            <label for="inputPassword5" class="text-muted font-weight-bold mb-2">CARD NUMBER</label>
+            <input type="password" id="inputPassword5" class="form-control mb-4" aria-describedby="passwordHelpBlock">
+
+            <div class="d-flex justify-content-between align-items-start">
+
+
+              <div class="form-group col-xl-7">
+
+                <label for="formGroupExampleInput2" class="text-muted mb-2">CARD HOLDER</label>
+                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Name...">
+
+              </div>
+
+              <div class="col-xl-2">
+                <label for="inputPassword5" class="text-muted font-weight-bold mb-2">DATE</label>
+                <input class="form-control" type="date" value="2011-08-19" id="example-date-input">
+              </div>
+
+              <div class="col-xl-2">
+                <label for="inputPassword5" class="text-muted font-weight-bold mb-2">CVC</label>
+                <input type="password" id="inputPassword5" class="form-control mb-4" aria-describedby="passwordHelpBlock">
+              </div>
+
+
+            </div>
+
+          </div>
+        </div>
+
+
+
+        <div class="card mb-4">
+          <div class="card-body shadow p-4 pt-5 rounded" style="background-color: #fff;">
+            <h4 class="card-title mb-4">Billing Address</h4>
+
+            <div class="form-check mb-4">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Some as shipping address
+              </label>
+            </div>
+            <hr>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+              <label class="form-check-label" for="flexRadioDefault2">
+                Use the different billing address
+              </label>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-between mb-4">
+
+          <button type="button" class="btn btn-link">Return to shipping method</button>
+
+          <button type="button" class="btn btn-primary">Complate order</button>
+
+        </div>
+
+      </div>
+
+      <div class="leftColumn col-xl-4 col-md-12 col-sm-12 col-12">
+        <div class="card mb-4">
+          <div class="card-body shadow p-4 pt-5 rounded" style="background-color: #fff;">
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="d-flex justify-content-between align-items-center col-xl-6">
+                <div class="p-2" style="border: 1px solid silver; border-radius: 5px;">
+                  <img src="./img/order.jpg" class="" alt="..." width="36" height="26">
+                </div>
+                <h6>Chocolate bar</h6>
+              </div>
+              <h3 class="h4">$2.49</h3>
+            </div>
+
+            <hr style="border:silver">
+
+
+
+            <div class="d-flex justify-content-between align-items-center">
+
+              <p class="">Subtotal</p>
+
+              <p class="">$4.98</p>
+
+            </div>
+
+            <div class="d-flex justify-content-between align-items-center">
+
+              <p>Shipping</p>
+
+              <p>$3.00</p>
+
+            </div>
+
+            <hr> 
+            
+            <div class="d-flex justify-content-between align-items-center">
+
+              <p>Total</p>
+
+              <h4>$7.98</h4>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+
+
+
+  </div>
+
+
+  <script src="./libs/bootstrap.min.js"></script>
+
+</body>
+
+</html>

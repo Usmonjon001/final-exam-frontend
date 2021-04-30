@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- Text -->
+
+        <h1 class="title">Pitsa buyurtma qilish</h1>
+
+        <!-- Left Column -->
+
+        <div class="leftcolumn"> 
+
+            <label for="pitsaqatlami" class="non">Non qanday bo'lsin?</label><br>
+            <div class="module-border-wrap">
+
+                <label>Choose an ice cream flavor:
+                    <select class="pizzaSelect" name="ice-cream">
+                      <option value="" disabled>Tanlan!!!</option>
+                      <option value="yupqa">Yupqa</option>
+                      <option value="ortacha">O'rtacha</option>
+                      <option value="qalin">Qalin</option>
+                    </select>
+                  </label>
+
+
+            </div>
+            <div class="maincircle">
+                <div class="circle">
+                    <input type="radio" value="25sm" name="pizza" id="pizzaSize25" class="pizzaSize" data-checkbox-id="0"><label for="pizzaSize25">25sm</label> 
+                </div>       
+                <div class="circle">
+                    <input type="radio" value="30sm" name="pizza" id="pizzaSize30" class="pizzaSize" data-checkbox-id="1"><label for="pizzaSize30">30sm</label> 
+                </div> 
+                <div class="circle">
+                    <input type="radio" value="35sm" name="pizza" id="pizzaSize35" class="pizzaSize" data-checkbox-id="2"><label for="pizzaSize35">35sm</label> 
+                </div>      
+            </div>
+            <div class="choosing">
+                <h4>Ustiga Nima Solaylik?</h4><br>
+
+
+                <input type="checkbox" name="masalliq" id="tomoto" class="masalliq" value="pomidor" data-checkbox-id="3">
+                <label for="tomoto">Pomidor</label><br>
+                
+                <input type="checkbox" name="masalliq" id="cucumber" class="masalliq" value="bodiring" data-checkbox-id="4">
+                <label for="cucumber">Tuzlangan Bodiring</label><br>
+
+                <input type="checkbox" name="masalliq" id="meat" class="masalliq" value="gusht" data-checkbox-id="5">
+                <label for="meat">Kurka Go'shti</label><br>
+
+                <input type="checkbox" name="masalliq" id="quziqorin" class="masalliq" value="quziqorin" data-checkbox-id="6">
+                <label for="quziqorin">Qo'ziqorin</label><br>
+
+                <input type="checkbox" name="masalliq" id="zaytun" class="masalliq" value="zaytun" data-checkbox-id="7">
+                <label for="zaytun">Zaytun</label><br>
+
+                <input type="checkbox" name="masalliq" id="qazi" class="masalliq" value="qazi" data-checkbox-id="8"> 
+                <label for="qazi">Qazi</label><br>
+
+            </div>
+
+            <div class="exraproduct">
+
+                <h4 class="qushimcha">Qo'shimchalar</h4>
+
+                <input type="checkbox" name="masalliq" value="Achchiq" id="achchiq" class="extraFoods" data-checkbox-id="9">
+                <label for="achchiq">Achchiq</label>
+
+                <input type="checkbox" name="masalliq" value="Sasiskali" id="sasiska" class="extraFoods" data-checkbox-id="10">
+                <label for="sasiska">Sasiskali</label>
+
+            </div>
+
+
+        </div>
+
+        <!-- Right Column -->
+
+        <div class="right-column">
+
+            <h3>Non: <div class="result" style="color: black;"></div></h3>
+
+            <h3>Kattaligi: <span class="sizeOfPizza"></span></h3>
+
+            <h3>Qo'shimcha masalliqlar <br><span class="extraMeals"></span></h3>
+
+            <h3>Pitsa Ustiga <span class="exraFoodsResult"></span></h3>
+
+            <button type="submit">Buyurtma berish</button>
+        </div>
+        
+    </div>
+
+
+    <script src="./main.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,121 @@
+body{
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+h1,h2,h3,h4,h5,h6, p, a{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.container{
+   width: 90%;
+   margin: 10px auto;
+   height: 800px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.card-wrapper{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.card{
+    width: 24.3%;
+    box-sizing: border-box;
+    min-height: 500px;
+    overflow: hidden;
+    transition: all ease 1s;
+    transform: scale(1);
+    position: relative;
+}
+
+.card .headerImage{
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+    transition: all ease 1s;
+    transform: scale(1);
+    
+}
+
+.card:hover .headerImage{
+    transform: scale(1.3);
+    transition: all ease 1s;
+}
+
+.gamelogo{
+    width: 70%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gamelogo_card{
+    width: 100px;
+    height: 80px;
+    box-shadow: 0px 0px 20px #6279ff;
+    background-color: #050505;
+    transition: all ease 2s;
+}
+
+.gamelogo_card:hover{
+    transform: rotate(720deg);
+    transition: all ease 1.5s;
+}
+
+.gamelogo_card:active{
+    transform: rotate(360deg);
+    transition: all ease 2s;
+}
+
+.gamelogo_card a{
+    color: green;
+}
+
+.gamelogo_card .gamelogo_image{
+    height: 80px;
+    width: 100px;
+    object-fit: cover;
+}
+
+.extra{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    border: 1px solid red;
+    transition: all ease 5s;
+    z-index: 6;
+    background-color: transparent;   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

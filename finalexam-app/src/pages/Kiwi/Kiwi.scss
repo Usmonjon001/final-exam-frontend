@@ -1,0 +1,254 @@
+.computer-togle{
+    display: none;
+    width: 100%;
+    position: absolute;
+    bottom: -15px;
+    right: 0;
+    background: #dadada;
+    z-index: 5;
+}
+
+.kiwicard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    &-item{
+        max-width: 254px;
+        margin-bottom: 18px;
+        min-height: 300px;
+        img{
+            width: 100%;
+            border-radius: 5px;
+        }
+        h1{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            color: #000000;
+            margin-top: 5px;
+        }
+        p{
+            margin-top: 5px;
+        }
+        &_date{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 14px;
+            color: #4A4A4A;
+        }
+        &_price{
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 20px;
+            color: #000000;
+        }
+    }
+    &-cardtypes{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        cursor: pointer;
+        margin-bottom: 25px;
+        margin-top: 30px;
+        &-container{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            &:nth-child(2) .kiwicard-cardtypes-container-card{
+                background: #B4E2E1;
+            }
+            &:nth-child(3) .kiwicard-cardtypes-container-card{
+                background: #FF9E83;
+                position: relative;
+                &:hover, .computer-togle{
+                    display: block;
+                    // background: red;
+                }
+            }
+            &:nth-child(4) .kiwicard-cardtypes-container-card{
+                background: #F7E233;
+            }
+            &:nth-child(5) .kiwicard-cardtypes-container-card{
+                background: #F6DAC2;
+            }
+            &:nth-child(6) .kiwicard-cardtypes-container-card{
+                background: #B4E2E1;
+            }
+            &:nth-child(7) .kiwicard-cardtypes-container-card{
+                background: #B6CAFB;
+            }
+            &:nth-child(8) .kiwicard-cardtypes-container-card{
+                background: #F6DAC2;
+            }
+            &:nth-child(9) .kiwicard-cardtypes-container-card{
+                background: #FF9E83;
+            }
+            &-card{
+                background: #B6CAFB;
+                border-radius: 20px;
+                padding: 16px;
+            }
+            &-text{
+                font-style: normal;
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 17px;
+                color: #4A4A4A;
+                margin-top: 6px;
+            }
+        }
+    }
+    &-popularside{
+        width: 100%;
+        padding: 45px 0;
+        box-sizing: border-box;
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        &-card{
+            max-width: 450px;
+            min-width: 380px;
+            height: 238px;
+            background: #B4E2E1;
+            box-sizing: border-box;
+            border-radius: 10px;
+            display: flex;
+            padding: 24px 31px;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            &:nth-child(1){
+                background-image: url('../../assets/images/popularside/laptop.png');
+                background-repeat: no-repeat;
+                background-position: right center;
+            }
+            &:nth-child(2){
+                background-image: url('../../assets/images/popularside/Group\ 19.png');
+                background-repeat: no-repeat;
+                background-position: right center;
+            }
+            &:nth-child(3){
+                background-image: url('../../assets/images/popularside/table.png');
+                background-repeat: no-repeat;
+                background-position: right 20px;
+            }
+            &-text{
+                width: 100%;
+                h1{
+                    width: 225px;
+                    font-size: 23px;
+                    line-height: 26px;
+                    color: #000000;
+                }
+                &_link{
+                    margin-top: 100px;
+                    display: inline-block;
+                    font-size: 15px;
+                    line-height: 18px;
+                    color: #4A4A4A;
+                    position: relative;
+                    &:after{
+                        content: '';
+                        position: absolute;
+                        right: -25px;
+                        top: 5px;
+                        width: 5.5px;
+                        height: 10px;
+                        background-image: url('../../assets/images/popularside/Fill\ 1.svg');
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        
+                    }
+                }
+            }
+            img{
+                object-fit: contain;
+            }
+        }
+    }
+    &-shortadvetisement{
+        margin-top: 20px;
+        &-direction{
+            width: 70%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid rgba(182, 202, 251, 0.606827);
+            padding-bottom: 10px;
+            &_link{
+                font-style: normal;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 30px;
+                color: #9B9B9B;
+                &:hover{
+                    color: #4E72CA;
+                }
+            }
+        }
+    }
+}
+
+.border-bottom{
+    border-bottom: 1px solid rgba(182, 202, 251, 0.606827);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.section4{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: rgba(182, 202, 251, 0.159986);
+    box-shadow: inset 0px 21px 13px rgba(182, 202, 251, 0.225402);
+    margin-top: 30px;
+}
+
+.displayMore{
+    width: 100%;
+    text-align: center;
+    margin-top: 35px;
+    &-link{
+        font-size: 15px;
+        line-height: 18px;
+        color: #4E72CA;
+    }
+}
+
+.seemore{
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid rgba(182, 202, 251, 0.606827);
+    &_link{
+        padding: 10px;
+        font-size: 15px;
+        line-height: 18px;
+        color: #4E72CA;
+        display: inline-block;
+        position: relative;
+        &:after{
+            content: '';
+            position: absolute;
+            top: 13px;
+            right: -10px;
+            background-image: url('../../assets/images/kiwipageImg/Down.svg');
+            width: 5.5px;
+            height: 10px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
+    }
+}
+
+
+
